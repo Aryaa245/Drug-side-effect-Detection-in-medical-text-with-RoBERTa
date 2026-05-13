@@ -1,0 +1,7 @@
+{
+  "train_size": 14627,
+  "val_size": 3134,
+  "test_size": 3135,
+  "strategy": "stratified 70/15/15",
+  "random_state": 42
+}
