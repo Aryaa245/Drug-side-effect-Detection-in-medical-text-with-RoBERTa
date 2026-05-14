@@ -1,0 +1,21 @@
+{
+  "model_name": "roberta-base",
+  "task": "ADE Binary Classification",
+  "dataset": "ADE-Corpus-V2 (Gurulingappa et al., 2012)",
+  "dataset_hash": "10469a693dd4",
+  "best_strategy": "class_weight",
+  "best_epoch": "6",
+  "optimal_threshold": 0.83,
+  "val_f1_macro": 0.9104,
+  "test_f1_macro_default": 0.9192,
+  "test_f1_macro_optimal": 0.9201,
+  "test_auc_roc": 0.9749,
+  "hyperparameters": {
+    "max_length": 128,
+    "batch_size": 16,
+    "num_epochs": 7,
+    "learning_rate": 2e-05,
+    "warmup_ratio": 0.1
+  },
+  "saved_at": "2026-05-14T14:03:39.607388"
+}
